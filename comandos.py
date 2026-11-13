@@ -31,6 +31,21 @@ Para filtros em colunas não numéricas, utilize normalização de caracteres ma
 modelagem: {modelagem}
 '''
 
+instrucao_editar_df = '''
+Atue como especialista python em manipulação de Dataframes pandas.
+Gere apenas o código python correpondente a solicitação abaixo.
+Regras gerais:
+- Retorne somente código Python, sem explicações, Markdown ou blocos de código.
+- Não importe bibliotecas.
+- Não consulte banco de dados.
+- Não crie variável nova para o dataframe.
+- Assuma que o dataframe sempre se chamará df.
+- Utilize inplace=True para editar o df.
+
+
+SOLICITAÇÂO:
+'''
+
 instrucao_grafico = '''
 Você é um especialista em visualização de dados com Streamlit.
 
